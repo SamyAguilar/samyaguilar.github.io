@@ -1,0 +1,58 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c3d172;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para los encabezados principales */
+h1 {
+    color: #23405e; /* Color oscuro para el título principal */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los encabezados de sección */
+h2 {
+    color: #e04466; /* Color azul para los h2 */
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Estilo para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Margen inferior para separar tablas */
+    background-color: white; /* Fondo blanco para las tablas */
+}
+
+/* Estilo para las celdas de las tablas */
+th, td {
+    border: 1px solid #ddd; /* Borde ligero */
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+/* Estilo para los encabezados de las tablas */
+th {
+    background-color: #3498db; /* Color de fondo azul para los encabezados */
+    color: white; /* Color de texto blanco para los encabezados */
+}
+
+/* Estilo para las filas de las tablas */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color gris claro para filas pares */
+}
+
+/* Estilo para el pie de las tablas */
+tfooter {
+    background-color: #ecf0f1; /* Color gris claro para el pie */
+    font-weight: bold; /* Negrita para el pie */
+}
+.planeta {
+    color:red;
+    width:400px;
+    background:white;
+}

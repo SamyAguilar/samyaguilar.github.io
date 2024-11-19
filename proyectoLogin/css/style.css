@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EBE2F7;
+}
+.container {
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor1 {
+    display: flex;
+    background-color: #EAE6F8; /* Fondo morado claro */
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+.contenedor2 {
+    width: 100%;
+    padding: 80px 60px; /* Ajustamos el padding para posicionar mejor el contenido */
+    background-image: radial-gradient(circle at center, #2C2A7E, #A5BECC, #F5F5F5);
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Aliniación vertical */
+    justify-content: center; /* Centramos el texto */
+    align-items: flex-start; /* Alineamos el contenido hacia la izquierda */
+}
+
+.contenedor2 h1 {
+    font-size: 3rem; /* Tamaño del texto principal */
+    color:#2C2A7E;
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start; /* Ícono alineado con el texto */
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.feature h2 {
+    font-size: 1.75rem; /* Aumentamos el tamaño del título de la característica */
+    margin-bottom: 5px; /* Ajuste del espacio entre título y descripción */
+}
+
+.feature p {
+    font-size: 1rem;
+    max-width: 400px; /* Limitar el ancho del texto para mayor legibilidad */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+.brand {
+    margin-top: 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Posicionamos el formulario sobre el contenedor 2 */
+.contenedor3 {
+    position: absolute; /* Posicionamos el contenedor 3 sobre el contenedor 2 */
+    top: 50%; /* Centrado verticalmente */
+    right: 5%; /* Separación desde la derecha */
+    transform: translateY(-50%); /* Centrado vertical */
+    width: 35%; /* Ajuste del ancho */
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    z-index: 10; /* Asegura que esté encima */
+}
+
+.form-container {
+    width: 100%;
+}
+
+.form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+button {
+    padding: 15px;
+    background-color: #00D079;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#bt{
+
+}
+
+.oauth {
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    
+    border: 1px solid blue; /* Added blue borders */
+    margin-top: 20px;
+}
+
+.oauth button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

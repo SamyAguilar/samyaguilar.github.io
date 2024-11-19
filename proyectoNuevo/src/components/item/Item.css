@@ -1,0 +1,69 @@
+.contenedor_item {
+    display: inline-block;
+    padding: 10px 10px 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: #34CC75;
+    width: 200px;
+    height: auto;
+    grid-template-columns: auto auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.imagen {
+    justify-self: end;
+    border-radius: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.imagen:hover {
+    opacity: 0.8; 
+}
+
+.btn {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.5);
+}
+
+.text1 {
+    background-color: #93e4b6;
+    width: fit-content;
+    color: black; 
+    border-radius: 8px; 
+    border-style: hidden; 
+    padding: 5px; 
+    font-size: 16px;
+    font: oblique bold 100% cursive;
+}
+.text2{
+    color: white;
+    font: oblique bold 120% cursive;
+}
+
+.text3 {
+    color: rgba(255, 255, 255, 0); 
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    font-size: 18px; 
+    font: oblique bold 120% cursive; 
+    transition: color 0.3s ease;
+}
+
+.text3:hover {
+    color: rgb(52, 8, 8); 
+}
