@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box; 
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+
+.servicios {
+    display: flex;
+    height: 215vh /* Ajustar altura para dejar espacio para el footer */
+    
+}
+
+/* empieza header */
+.main-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    height: 50px;
+}
+.main-header .btn-reserva {
+    position: absolute;
+    right: 20px;
+    width: 100px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-header .btn-reserva:hover {
+    background-color: #6AB5F1;
+    color: white;
+}
+
+.main-header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+
+.sidebar {
+    width: 209.28px;
+    height: 100.6%;
+    background-color: #1c1c1c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            display: block;
+            transition: background 0.3s;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #333;
+        }
+    
+                
+        .formulario_div {
+            
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+            border: 1px solid black;
+            box-shadow: 0 10px 30px rgba(77, 77, 77, 0.1);
+            width: 800px;
+            margin-left: 100px;
+            height: auto;
+            margin-top: 60px;
+        }
+
+        .formulario_div h1 {
+            color: #343a40;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .formulario_div form div {
+            margin-bottom: 20px;
+        }
+
+        .formulario_div form label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            margin-top: 10px;
+        }
+
+        .formulario_div form input[type="date"],
+        .formulario_div form input[type="number"]{
+            
+                width: 97%;
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #ddd;
+                background-color: #f9f9f9;
+                font-size: 16px;
+            
+        }
+        .formulario_div form select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            font-size: 16px;
+        }
+
+        .formulario_div form input[type="radio"],
+        .formulario_div form input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        .formulario_div form p {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        label p {
+            font-weight: bold;
+            color: #333;
+        }
+
+        select, input[type="radio"], input[type="checkbox"] {
+            margin-top: 10px;
+        }
+
+        .serviciosExtra {
+            display: flex;
+            flex-direction: column;
+            gap: 10px; 
+        }
+
+        #buttFin {
+
+            padding: 10px;
+            margin-top: 20px;
+            width: auto; 
+            text-align: center;
+            background-color: #6AB5F1;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 auto;;
+            transition: background-color 0.3s;
+            text-decoration: none; 
+            
+        }
+
+        #buttFin a {
+            color: white;
+            text-decoration: none; 
+        }
+
+        #buttFin:hover {
+            background-color: #5393d3;
+        }
+
+        input[type="button"] {
+            display: none; /* Oculta el botón redundante */
+        }
+
+
+ /* No tocar si tu tocar tu cambiar todas las paginas */
+.footer {
+    background-color: #2e3b4e;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.footer-section {
+    flex-basis: 30%;
+    margin: 5px;
+}
+
+.footer-section h3 {
+    color: #6AB5F1;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.newsletter input[type=email] {
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px;
+    background-color: #6AB5F1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #5393d3;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+    font-size: 14px;
+    width: 100%;
+}

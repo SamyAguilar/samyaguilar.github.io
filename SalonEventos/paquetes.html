@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paquetes</title>
+    <link rel="stylesheet" href="/SalonEventos/CSS/paquetes.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="/SalonEventos/index.html">Inicio</a></li>
+                <li><a href="/SalonEventos/eventos.html">Eventos</a></li>
+                <li><a href="/SalonEventos/galeria.html">Galería</a></li>
+                <li><a href="/SalonEventos/resenas.html">Reseñas</a></li>
+                <li><a href="/SalonEventos/paquetes.html">Paquetes</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <p id="titulo">PAQUETES</p>
+            <p id="pregunta">Cual es tu evento?</p>
+            <div class="eventos">
+                <div class="imgEventos" data-event="xv">
+                    <img src="/SalonEventos/imagenes/15anios.jpeg" alt="imgXV">
+                    <p>XV Años</p>
+                </div>
+                <div class="imgEventos" data-event="bautizo">
+                    <img src="/SalonEventos/imagenes/bautizo.png" alt="imgBaut">
+                    <p>Bautizo</p>
+                </div>
+                <div class="imgEventos" data-event="boda">
+                    <img src="/SalonEventos/imagenes/boda.jpg" alt="imgBoda">
+                    <p>Boda</p>
+                </div>
+                <div class="imgEventos" data-event="cumpleanos">
+                    <img src="/SalonEventos/imagenes/cumpleanios.jpeg" alt="imgCumlpeanios">
+                    <p>Cumpleaños</p>
+                </div>
+                <div class="imgEventos" data-event="despedida">
+                    <img src="/SalonEventos/imagenes/despedida.jpeg" alt="imgDespedida">
+                    <p>Despedida de Solter@</p>
+                </div>
+                <div class="imgEventos" data-event="graduacion">
+                    <img src="/SalonEventos/imagenes/graduacion.jpeg" alt="imgGraduacion">
+                    <p>Graduacion</p>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal" id="eventModal">
+                <div class="modal-content">
+                    <div class="modal-option">
+                        <img src="" alt="Paquete Básico">
+                        <h3>Paquete Básico</h3>
+                        <ul>
+                            <li>Sillas de metal</li>
+                            <li>Mesas para 5 personas</li>
+                            <li>Decoración básica</li>
+                            <!-- <li>Mobiliario incluido</li> -->
+                        </ul>
+                    </div>
+                    <div class="modal-option">
+                        <img src="" alt="Paquete Estándar">
+                        <h3>Paquete Estándar</h3>
+                        <ul>
+                            <li>Sillas de plastico comodas</li>
+                            <li>Mesas para 10 personas</li>
+                            <li>Centros de mesa</li>
+                            <li>Vajilla de plastico</li>
+                        </ul>
+                    </div>
+                    <div class="modal-option">
+                        <img src="" alt="Paquete Premium">
+                        <h3>Paquete Premium</h3>
+                        <ul>
+                            <li>Sillas acolchadas</li>
+                            <li>Mesas circulares para 15 personas</li>
+                            <li>Decoración premium</li>
+                            <li>Vajilla fina</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="buttPersonalizar">
+                <a href="/SalonEventos/armado.html">Personalizar</a>
+            </div>
+        </main>
+    </div>
+    
+    <footer class="footer" id="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>SaloncITO</h3>
+                <p>Ubicación</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3813.8711528182744!2d-96.74541705!3d17.07895405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c7220141269245%3A0xcfd273ff796cb700!2sInstituto%20Tecnologico%20de%20Oaxaca%2C%2068033%20Oaxaca%20de%20Ju%C3%A1rez%2C%20Oax.!5e0!3m2!1ses!2smx!4v1729279178545!5m2!1ses!2smx" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Email: <a href="mailto:saloncito@itooaxaca.edu.mx">saloncito@itooaxaca.edu.mx</a></p>
+                <p>Tel: +52 951 987 45 23</p>
+            </div>
+            <div class="footer-section">
+                <h3>Servicios</h3>
+                <ul>
+                    <li>Ilustración</li>
+                </ul>
+            </div>
+
+            <div class="footer-section newsletter">
+                <h3>Únete a nuestro boletín</h3>
+                <form>
+                    <input type="email" placeholder="Tu Email" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/SalonEventos/js/paquetes.js"></script>
+</body>
+</html>

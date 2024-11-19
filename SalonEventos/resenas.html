@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseñas de Salón de Eventos</title>
+    <link rel="stylesheet" href="/SalonEventos/CSS/resenas.css">
+</head>
+<body>
+    <!-- Header con el título y botón de reserva -->
+    <header class="main-header">
+        <h1>SaloncITO</h1>
+        <button class="btn-reserva">Reserva Ya</button>
+        <a href="/SalonEventos/paquetes.html" class="btn-reserva">Reserva Ya</a>
+
+    </header>
+
+    <!-- Sidebar de navegación -->
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="/SalonEventos/index.html">Inicio</a></li>
+                <li><a href="/SalonEventos/eventos.html">Eventos</a></li>
+                <li><a href="/SalonEventos/galeria.html">Galería</a></li>
+                <li><a href="/SalonEventos/resenas.html">Reseñas</a></li>
+                <li><a href="/SalonEventos/paquetes.html">Paquetes</a></li>
+            </ul>
+        </nav>
+
+        <!-- Contenido principal de las reseñas -->
+        <div class="content">
+            <section class="reviews-section">
+                <div class="review">
+                    <h3>Juan Pérez</h3>
+                    <p class="date">12 de Octubre, 2024</p>
+                    <p class="rating">⭐⭐⭐⭐⭐</p>
+                    <p class="comment">El salón estuvo espectacular. La decoración fue increíble y la atención del personal fue de primera. Definitivamente volveré a realizar eventos aquí.</p>
+                </div>
+        
+                <div class="review">
+                    <h3>María García</h3>
+                    <p class="date">5 de Septiembre, 2024</p>
+                    <p class="rating">⭐⭐⭐⭐</p>
+                    <p class="comment">La experiencia fue muy buena en general. Aunque la comida podría haber sido mejor, la ambientación y el servicio fueron excelentes.</p>
+                </div>
+        
+                <div class="review">
+                    <h3>Carlos López</h3>
+                    <p class="date">23 de Agosto, 2024</p>
+                    <p class="rating">⭐⭐⭐⭐⭐</p>
+                    <p class="comment">El lugar perfecto para cualquier evento. Todo salió tal como lo esperábamos. Recomiendo este salón a cualquiera que busque calidad y profesionalismo.</p>
+                </div>
+            </section>
+        
+            <section class="comment-form-section">
+                <h2>Deja tu reseña</h2>
+                <form class="comment-form">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
+        
+                    <label for="rating">Calificación:</label>
+                    <select id="rating" name="rating" required>
+                        <option value="5">⭐⭐⭐⭐⭐</option>
+                        <option value="4">⭐⭐⭐⭐</option>
+                        <option value="3">⭐⭐⭐</option>
+                        <option value="2">⭐⭐</option>
+                        <option value="1">⭐</option>
+                    </select>
+        
+                    <label for="comment">Comentario:</label>
+                    <textarea id="comment" name="comment" rows="5" placeholder="Escribe tu reseña aquí" required></textarea>
+        
+                    <button type="submit">Enviar Reseña</button>
+                </form>
+            </section>
+        </div>
+        
+
+    <!-- Footer con el estilo de los archivos anteriores -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>SaloncITO</h3>
+                <p>Ubicación</p>
+                <iframe src="https://www.google.com/maps/embed?..." width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Email: <a href="mailto:saloncito@itooaxaca.edu.mx">saloncito@itooaxaca.edu.mx</a></p>
+                <p>Tel: +52 951 987 45 23</p>
+            </div>
+            <div class="footer-section">
+                <h3>Servicios</h3>
+                <ul>
+                    <li>Ilustración</li>
+                </ul>
+            </div>
+    
+            <div class="footer-section newsletter">
+                <h3>Únete a nuestro boletín</h3>
+                <form>
+                    <input type="email" placeholder="Tu Email" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
